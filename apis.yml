@@ -1,0 +1,112 @@
+name: Elasticsearch
+description: Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease.
+image: https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6ae3d6980b5fd629/5bbca1d1af3a954c36f95ed3/logo-elastic.svg
+created: '2024'
+modified: '2024'
+specificationVersion: '0.18'
+url: https://www.elastic.co/elasticsearch/
+tags:
+- Search
+- Analytics
+- Database
+- Distributed Systems
+- Real-time
+- NoSQL
+- Full-text Search
+apis:
+- name: Elasticsearch REST API
+  description: The main REST API for interacting with Elasticsearch clusters, including document indexing, searching, and cluster management.
+  image: https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt6ae3d6980b5fd629/5bbca1d1af3a954c36f95ed3/logo-elastic.svg
+  humanURL: https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html
+  baseURL: https://localhost:9200
+  tags:
+  - REST API
+  - Search
+  - Indexing
+  properties:
+  - type: documentation
+    url: https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+  - type: openapi
+    url: https://github.com/elastic/elasticsearch-specification
+  - type: swagger
+    url: https://github.com/elastic/elasticsearch-specification/blob/main/output/openapi/elasticsearch-openapi.json
+  - type: api-getting-started
+    url: https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+  - type: authentication
+    url: https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api.html
+  contact:
+  - type: support
+    url: https://www.elastic.co/support
+  - type: community
+    url: https://discuss.elastic.co/
+- name: Elasticsearch Query DSL API
+  description: Domain Specific Language for defining search queries with powerful filtering, aggregations, and scoring capabilities.
+  humanURL: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html
+  baseURL: https://localhost:9200
+  tags:
+  - Query
+  - Search
+  - DSL
+  properties:
+  - type: documentation
+    url: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html
+  - type: examples
+    url: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html
+- name: Elasticsearch Index API
+  description: APIs for creating, deleting, and managing indices and their mappings.
+  humanURL: https://www.elastic.co/guide/en/elasticsearch/reference/current/indices.html
+  baseURL: https://localhost:9200
+  tags:
+  - Index Management
+  - Mappings
+  - Settings
+  properties:
+  - type: documentation
+    url: https://www.elastic.co/guide/en/elasticsearch/reference/current/indices.html
+- name: Elasticsearch Cluster API
+  description: APIs for cluster-level operations including health monitoring, stats, and configuration.
+  humanURL: https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster.html
+  baseURL: https://localhost:9200
+  tags:
+  - Cluster
+  - Monitoring
+  - Administration
+  properties:
+  - type: documentation
+    url: https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster.html
+- name: Elasticsearch Security API
+  description: APIs for managing users, roles, and privileges in secured Elasticsearch clusters.
+  humanURL: https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api.html
+  baseURL: https://localhost:9200
+  tags:
+  - Security
+  - Authentication
+  - Authorization
+  properties:
+  - type: documentation
+    url: https://www.elastic.co/guide/en/elasticsearch/reference/current/security-api.html
+common:
+- type: getting-started
+  url: https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html
+- type: blog
+  url: https://www.elastic.co/blog/
+- type: downloads
+  url: https://www.elastic.co/downloads/elasticsearch
+- type: pricing
+  url: https://www.elastic.co/pricing/
+- type: terms-of-service
+  url: https://www.elastic.co/agreements/
+- type: support
+  url: https://www.elastic.co/support
+- type: forum
+  url: https://discuss.elastic.co/
+- type: github
+  url: https://github.com/elastic/elasticsearch
+- type: status
+  url: https://status.elastic.co/
+- type: training
+  url: https://www.elastic.co/training/
+maintainers:
+- name: Elastic
+  email: info@elastic.co
+  url: https://www.elastic.co/
