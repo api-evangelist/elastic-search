@@ -51,7 +51,7 @@ common:
     url: https://www.elastic.co/pricing/
   - type: Support
     url: https://www.elastic.co/support
-  - type: Status
+  - type: StatusPage
     url: https://status.elastic.co/
   - type: TermsOfService
     url: https://www.elastic.co/agreements/
