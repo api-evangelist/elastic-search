@@ -7,7 +7,7 @@ description: >-
   powerful analytics that scale with ease. It provides a comprehensive REST API
   for document indexing, searching, aggregations, and cluster management.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Analytics
   - Database
